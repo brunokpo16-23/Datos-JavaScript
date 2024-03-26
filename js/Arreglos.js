@@ -29,7 +29,7 @@ números.splice(2, 1); // Este el primer valor que le pongamos es desde cual va 
 
 
 // Formas de ver el contenido de un arregle 
-// console.table(numeros);
+// console.table(números);
 console.table(números);
 
 // La desventaja de estas modificaciones a nuestros arreglos es que estamos modificando nuestro arreglo original y no es una buena practica

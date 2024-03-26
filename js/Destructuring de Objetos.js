@@ -7,7 +7,7 @@ const producto = {
 }
 
 
-// Con estra forma le podemos asignar un mismo valor a una variable nueva 
+// Con esta forma le podemos asignar un mismo valor a una variable nueva 
 // Esta es la forma vieja
 const precioProducto = producto.precio;
 const nombreProducto = producto.nombreProducto;
@@ -20,7 +20,7 @@ console.log(precioProducto);
 const {precio} = producto;
 const {nombreProducto} = producto;
 
-//Puedes acortarlo escribiendolo de esta manera 
+//Puedes acortarlo escribiéndolo de esta manera 
 const {precio, nombreProducto} = producto;
 
 

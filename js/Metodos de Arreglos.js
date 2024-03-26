@@ -22,11 +22,11 @@ const carrito = [
 // });
 
 // Includes 
-// Este es lo mismo que el aterior pero simplificado
-// Este funciona bien en arreglos planes, pero cuando tiene objetos no es la mejor opcion
+// Este es lo mismo que el anterior pero simplificado
+// Este funciona bien en arreglos planes, pero cuando tiene objetos no es la mejor opción
 // const resultado = meses.includes("Marzo");
 // console.log(resultado)
-// Si el valor existe dira true, de lo contrario false 
+// Si el valor existe dirá true, de lo contrario false 
 
 // Some 
 // Ideal para arreglos de objetos
@@ -38,7 +38,7 @@ const carrito = [
 
 
 // Reduse
-// Esto va a tormar todos nuestros numeros y darnos un resultado
+// Esto va a tomar todos nuestros números y darnos un resultado
 resultado = carrito.reduce(function(total, producto) {
     return total + producto.precio
 }, 0);

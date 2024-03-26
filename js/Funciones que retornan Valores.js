@@ -1,4 +1,4 @@
-// Esta funcion no hace la suma aca si no que la envia a resultado para que luego sea resultado el que tiene el valor
+// Esta función no hace la suma aca si no que la envía a resultado para que luego sea resultado el que tiene el valor
 // function sumar(numero1, numero2) {
     // return n1 + numero2;
 // }
@@ -26,5 +26,5 @@ total = agregarCarrito(1200);
 console.log(total);
 
 const totalAPagar = calcularImpuesto(total)
-console.log(`El total a pagar con Inpuestos es de: $${totalAPagar}`)
+console.log(`El total a pagar con Impuestos es de: $${totalAPagar}`)
 

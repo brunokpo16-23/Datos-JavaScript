@@ -4,8 +4,8 @@ const sumar2 = (n1, n2) => {
 
 sumar2(5, 10);
 
-const aprendiendo = (tecnologia) => {
-    console.log(`Aprendiendo ${tecnologia}`)
+const aprendiendo = (tecnología) => {
+    console.log(`Aprendiendo ${tecnología}`)
 }
 
 aprendiendo("JavaScript")
