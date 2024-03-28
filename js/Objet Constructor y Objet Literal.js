@@ -1,4 +1,3 @@
-// POO ( Programación orientada a objetos)
 
 // Objet Literal
 const producto = {
